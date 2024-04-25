@@ -26,7 +26,9 @@ You can install the dependencies using pip:
 
 1. **Clone the Repository**: Clone this repository to your local machine where you intend to run the MQTT client. Run the following command:
 
-`git clone <repository_url>`
+```bash
+git clone <repository_url>
+```
 
 
 Replace `<repository_url>` with the URL of this repository.
@@ -35,7 +37,9 @@ Replace `<repository_url>` with the URL of this repository.
 
 3. **Execute the Client**: Run the following command to start the MQTT client:
 
-`python sub.py`
+```bash
+python sub.py
+```
 
 
 4. **Subscribe to a Topic**: When prompted, enter the topic you want to subscribe to. Ensure that the topic matches the one published by the server.
@@ -44,7 +48,9 @@ Replace `<repository_url>` with the URL of this repository.
 
 1. **Clone the Repository**: Clone this repository to your local machine where you intend to run the MQTT server. Run the following command:
 
-`git clone <repository_url>`
+```bash
+git clone <repository_url>
+```
 
 
 Replace `<repository_url>` with the URL of this repository.
@@ -53,9 +59,13 @@ Replace `<repository_url>` with the URL of this repository.
 
 3. **Execute the Server**: Run the following command to start the MQTT server:
 
-`python pub_cn.py`
+```bash
+python pub_cn.py
+```
 or
-`python pub_daa.py`
+```bash
+python pub_daa.py
+```
 
 
 4. **Enter Task Information**: Follow the prompts to enter the number of tasks and their corresponding messages. The server will publish encrypted data to the specified MQTT topic.
